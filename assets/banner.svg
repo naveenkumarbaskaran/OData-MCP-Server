@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0c4a6e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#164e63;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#22d3ee;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" rx="12" fill="url(#bg)"/>
+  <rect x="0" y="188" width="800" height="12" rx="0" fill="url(#accent)" opacity="0.8"/>
+  <text x="400" y="95" font-size="44" font-weight="bold" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">OData MCP Server</text>
+  <text x="400" y="135" font-size="16" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">Expose Any OData V2/V4 Service as AI-Consumable MCP Tools</text>
+  <circle cx="90" cy="55" r="4" fill="#0ea5e9" opacity="0.5"/><circle cx="120" cy="40" r="3" fill="#22d3ee" opacity="0.6"/>
+  <circle cx="105" cy="75" r="4" fill="#0ea5e9" opacity="0.4"/>
+  <line x1="90" y1="55" x2="120" y2="40" stroke="#0ea5e9" stroke-width="1" opacity="0.3"/>
+  <line x1="120" y1="40" x2="105" y2="75" stroke="#22d3ee" stroke-width="1" opacity="0.3"/>
+  <circle cx="700" cy="55" r="4" fill="#22d3ee" opacity="0.5"/><circle cx="730" cy="40" r="3" fill="#0ea5e9" opacity="0.6"/>
+  <circle cx="715" cy="75" r="4" fill="#22d3ee" opacity="0.4"/>
+  <line x1="700" y1="55" x2="730" y2="40" stroke="#22d3ee" stroke-width="1" opacity="0.3"/>
+  <line x1="730" y1="40" x2="715" y2="75" stroke="#0ea5e9" stroke-width="1" opacity="0.3"/>
+</svg>
